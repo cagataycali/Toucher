@@ -3,6 +3,10 @@ var touch = require("touch")
 var program = require('commander');
 var moment = require('moment');
 var fs = require('fs');
+var updateNotifier = require('update-notifier');
+var pkg = require('./package.json');
+
+updateNotifier({pkg}).notify();
 moment.locale('en');
 var figlet = require('figlet');
 program
