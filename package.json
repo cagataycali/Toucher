@@ -1,0 +1,25 @@
+{
+  "name": "toucher",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "shell"
+  ],
+  "bin": {
+    "toucher": "./index.js"
+  },
+  "author": "Çağatay Çalı",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "figlet": "^1.1.2",
+    "moment": "^2.14.0",
+    "shelljs": "^0.7.0",
+    "touch": "^1.0.0"
+  }
+}
