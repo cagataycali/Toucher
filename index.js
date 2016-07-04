@@ -1,11 +1,4 @@
 #!/usr/bin/env node
-/*
-  ___|                       |                       ___|         | _)
-   |       _` |   _` |   _` |  __|   _` |  |   |      |       _` |  |  |
-   |      (   |  (   |  (   |  |    (   |  |   |      |      (   |  |  |
-  \____| \__,_| \__, | \__,_| \__| \__,_| \__, |     \____| \__,_| _| _|
-                |___/                     ____/
-*/
 var touch = require("touch")
 var program = require('commander');
 var moment = require('moment');
