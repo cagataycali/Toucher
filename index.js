@@ -20,11 +20,10 @@ if (program.string && program.name) {
       // data was here..
       var string =  '/* \n ' + data + '\n\n ' +moment().format('LLLL') + ' \n */';
       console.log(string);
-      touch(program.name, {}, function(err) {
-        console.log(err);
-      });
-      fs.appendFile(program.name, string, function (err) {
-         if(err) { console.log(err); }
+      touch(program.name, {}, function() {
+        fs.appendFile(program.name, string, function (err) {
+           if(err) { console.log(err); }
+        });
       });
   });
   console.log();
