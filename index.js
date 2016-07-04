@@ -28,5 +28,5 @@ if (program.string && program.name) {
   });
   console.log();
 } else {
-  console.log('Use like this: \n shell -s Hacked! -n test.txt');
+  console.log('Use like this: \n toucher -s Hacked! -n test.txt');
 }
